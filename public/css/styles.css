@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.title {
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid-container {
+    /* width: 600px; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+.alert {
+
+}
